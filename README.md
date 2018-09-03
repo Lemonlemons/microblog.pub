@@ -1,8 +1,8 @@
 # microblog.pub
 
 <p align="center">
-  <img 
-    src="https://sos-ch-dk-2.exo.io/microblogpub/microblobpub.png" 
+  <img
+    src="https://sos-ch-dk-2.exo.io/microblogpub/microblobpub.png"
     width="200" height="200" border="0" alt="microblog.pub">
 </p>
 <p align="center">
@@ -60,7 +60,7 @@ Activities are verified using HTTP Signatures or by fetching the content on the 
 $ git clone https://github.com/tsileo/microblog.pub
 $ cd microblog.pub
 $ pip install -r requirements.txt
-$ make css
+$ make docker
 $ cp -r config/me.sample.yml config/me.yml
 ``` 
 
